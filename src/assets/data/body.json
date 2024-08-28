@@ -1,0 +1,39 @@
+[
+    {
+      "name": "body",
+      "route": "body",
+      "subcategories": [
+        {
+          "name": "yoga",
+          "route": "body/yoga"
+        },
+        {
+          "name": "meditation",
+          "route": "body/meditation"
+        },
+        {
+          "name": "fitness",
+          "route": "body/fitness"
+        }
+      ]
+    },
+    {
+      "name": "soul",
+      "route": "soul",
+      "subcategories": [
+        {
+          "name": "inspirational-videos",
+          "route": "soul/inspirational-videos"
+        },
+        {
+          "name": "quotes",
+          "route": "soul/quotes"
+        },
+        {
+          "name": "music",
+          "route": "soul/music"
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,7 @@
+<h2>Body</h2>
+<p>body works!</p>
+<ul>
+    <li *ngFor="let subcategory of body_subcategory">
+    <a [routerLink]="['/body', subcategory.route]">{{ subcategory.name }}</a>
+    </li>
+</ul>

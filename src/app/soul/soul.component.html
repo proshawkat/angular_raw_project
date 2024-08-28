@@ -1,0 +1,7 @@
+<h2>Soul</h2>
+<p>soul works!</p>
+<ul>
+    <li *ngFor="let subcategory of soul_subcategory">
+    <a [routerLink]="['/soul', subcategory.route]">{{ subcategory.name }}</a>
+    </li>
+</ul>
